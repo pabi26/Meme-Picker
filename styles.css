@@ -25,7 +25,9 @@ h1 {
 	margin-bottom: 20px;
 }
 .meme img {
-	max-width: 100%;
+	width: 400px;
+    height: 400px;
+    max-width: 100%;
 }
 .form {
 	display: flex;
@@ -59,4 +61,27 @@ h1 {
 	background-color: #2E8B57;
 }
 
-  
+
+.top-text,
+.bottom-text{
+    max-width: 350px;
+    text-align: left;
+    color: red;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.top-text{
+    max-width: 350px;
+    text-align: left;
+    position: fixed;
+    top: 120px;
+    left: 250px;
+}
+
+.bottom-text{
+    position: fixed;
+    bottom: 400px;
+    left: 250px;
+}
+
